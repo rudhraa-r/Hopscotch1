@@ -136,7 +136,7 @@ function incrementCorrectCount() {
   
   function replay() {
     // Logic to replay the level goes here
-    location.href = "https://rudhraa-r.github.io/Pandi_Aatam-Lvl-1/";;
+    location.href = "https://rudhraa-r.github.io/Hopscotch1/";;
   }
   
   function nextLevel() {
