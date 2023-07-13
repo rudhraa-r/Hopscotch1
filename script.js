@@ -111,11 +111,11 @@ function incrementCorrectCount() {
     const buttonContainer = document.createElement("div");
     buttonContainer.classList.add("button-container");
   
-    const replayButton = document.createElement("button");
+    /*const replayButton = document.createElement("button");
     replayButton.textContent = "Replay";
     replayButton.classList.add("play-button");
     replayButton.addEventListener("click", replay);
-    buttonContainer.appendChild(replayButton);
+    buttonContainer.appendChild(replayButton);*/
   
     const nextLevelButton = document.createElement("button");
     nextLevelButton.textContent = "Next Level";
@@ -123,59 +123,31 @@ function incrementCorrectCount() {
     nextLevelButton.addEventListener("click", nextLevel);
     buttonContainer.appendChild(nextLevelButton);
   
-    const exitButton = document.createElement("button");
+    /*const exitButton = document.createElement("button");
     exitButton.textContent = "Exit";
     exitButton.classList.add("play-button");
     exitButton.addEventListener("click", exit);
-    buttonContainer.appendChild(exitButton);
+    buttonContainer.appendChild(exitButton);*/
   
     congratulationsDiv.appendChild(buttonContainer);
   
     document.body.appendChild(congratulationsDiv);
   }
   
-  function replay() {
+  /*function replay() {
     // Logic to replay the level goes here
-    location.href = "https://rudhraa-r.github.io/Hopscotch1/";;
-  }
+    location.href = "https://rudhraa-r.github.io/Pandi_Aatam-Lvl-1/";;
+  }*/
   
   function nextLevel() {
     // Logic to proceed to the next level goes here
 
   }
   
-  function exit() {
+ /* function exit() {
     // Logic to exit the game or go back to the main menu goes here
     window.open="main.html";
-  }
-const draggableContainer = document.querySelector('.draggable-elements');
-const shuffleButton = document.createElement('button');
-shuffleButton.classList.add('shuffle-button');
-shuffleButton.textContent = 'Shuffle';
-shuffleButton.addEventListener('click', shuffleDraggableElements);
-document.body.insertBefore(shuffleButton, draggableContainer);
-setTimeout(() => {
-  shuffleButton.classList.add('show');
-}, 100);
-
-function shuffleDraggableElements() {
-  const draggableElements = Array.from(draggableContainer.querySelectorAll('.draggable'));
-  draggableElements.forEach(element => {
-    draggableContainer.removeChild(element);
-  });
-  shuffleArray(draggableElements);
-  draggableElements.forEach(element => {
-    draggableContainer.appendChild(element);
-  });
-}
-
-function shuffleArray(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-}
-
+  }*/
   
   
   

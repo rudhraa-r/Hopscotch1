@@ -50,7 +50,6 @@ flex-wrap: wrap;
 min-width: 100px;
 flex-direction: row;
 align-items: center;
-text-align: center;
 
 }
 
@@ -245,8 +244,6 @@ text-align: center;
   font-family: Arial, sans-serif;
   font-size: 14px;
   color: #333;
-  background-color: #ccc;
-  border-radius: 20px;
 }
 
 .energy-bar {
@@ -363,11 +360,6 @@ text-align: center;
   
   
   .droppable-elements{left:400px;}
-  .shuffle-button{
-    position: relative;
-  left: 550px;
-  top: 100px;
-  }
 }
 @media only screen and (max-width: 970px) {
   
@@ -375,21 +367,6 @@ text-align: center;
     position: relative;
     left:-390px;
     bottom: -50px;
-   
-  }
-  .droppable-elements{left:00px;}
-  .shuffle-button{
-    position: relative;
-  left: 150px;
-  top: 100px;
-  }
-}
-@media only screen and (max-width: 950px) {
-  
-  .eight{
-    position: relative;
-    left:450px;
-    bottom: 70px;
    
   }
   .droppable-elements{left:00px;}
@@ -505,35 +482,4 @@ text-align: center;
    
   }
 }
-.shuffle-button {
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
-  padding: 8px 16px;
-  background-color: #9b4caf;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  position: relative;
-  left: 600px;
-  top: 100px;
-  font-size: 16px;
-  cursor: pointer;
-  opacity: 0;
-  
-  transition: opacity 0.5s ease-in-out;
-}
-
-.shuffle-button:hover {
-  background-color: #8f45a0;
-}
-
-.shuffle-button:focus {
-  outline: none;
-}
-
-.shuffle-button.show {
-  opacity: 1;
-}
-
 
